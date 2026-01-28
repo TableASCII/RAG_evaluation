@@ -35,6 +35,3 @@ class Parser:
             print(f"Успешно обработано {len(self.rag_records)} строк")
         return self.rag_records
 
-parser = Parser()
-(parser.parse("rag_logs.csv"))
-
